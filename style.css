@@ -8,7 +8,7 @@ body {
     color: #FFFFFF;
     display: grid;
     place-items: center;
-    width: 100%;
+    width: 95%;
     height: 100%;
 }
 h2{
@@ -81,5 +81,9 @@ img {
     height: 30px;
 }
 footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     margin-top: 1rem;
 }
